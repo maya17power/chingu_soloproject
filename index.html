@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -6,6 +5,8 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Pun Generator</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <!--JQUERY LIBRARY -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
@@ -23,42 +24,26 @@
 </head>
 
 <body class="bg-dark">
-  <div class="container mt-3">
-    <div class="row">
-      <div class="row well-sm">row well-sm
-        <div class="img-responsive col-xs-12">img responsive col-xs-12
-          <ul class="list-inline text-center">
-            <li>list 1</li>
-            <li>list 2</li>
-            <li>list 3</li>
-          </ul>
-        </div>
-      </div>
-    </div>
+  <div class="container" id="mainContainer">
+    
     <!--end of top ul -->
     <ul class="nav nav-tabs">
       <li class="nav-item">
-        <a class="nav-link active" href="#">Pun Generator</a>
+        <a class="nav-link" href="#">Pun Generator</a>
       </li>
-      <!-- <li class="nav-item">
-        <a class="nav-link" href="#">tab title 2</a>
-      </li> -->
-      <!-- <li class="nav-item">
-        <a class="nav-link" href="#">tab title 3</a>
-      </li> -->
+      
     </ul><!-- end of nav tabs -->
-    <div class="p-5 mb-4 bg-dark rounded-3">
-      <div class="container-fluid py-5">
+    <div class="p-1 mb-40 bg-dark rounded-3">
+      <div class="container-sm py-5" id="qContainer">
         <h1 class="display-5 fw-bold">
           <p class="text-center" id="punQuestion">
             Click to button to generate a pun!
           </p>
         </h1>
       </div><!-- end of Pun Question -->
-      <div class="container-fluid py-5">
+      <div class="container-sm py-5">
         <h1 class="display-5 fw-bold">
           <p class="text-center" id="punAnswer">
-           
           </p>
           <center>
           <button class="btn btn-outline-danger btn-lg" style="display: none;" id="showAnswer" type="button">
@@ -66,9 +51,9 @@
           </button>
           </center>
         </h1>
-      </div><!-- end of Pun Answer
+      </div><!-- end of Pun Answer -->
     </div><!-- end of jumbotron puns -->
-    <div class="p-1 mb-1 bg-gradient rounded-4">
+    <div class="p-1 mb-1 bg-gradient rounded-4" id="buttonContainer">
       <div class="container-fluid py-5">
         <h1 class="display-10 fw-bold">
           <p class="text-center" id="puns">Tell me a pun</p>

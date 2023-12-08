@@ -3,7 +3,11 @@ html {
     height: 100%;
     width: 100%;
   }
-  
+  #mainContainer{
+    padding-top: 30px;
+    display: grid;
+    place-content: space-around-center;
+  }
   #list{
     padding-top: 5%;
   }
@@ -13,7 +17,7 @@ html {
     width: 50px;
   }
   .list{
-    height: auto;
+    height: 50%;
     width: 100%;
   }
   #punButtonArea{
@@ -21,9 +25,5 @@ html {
   }
   p {
     color: white;
-  }
-  #syncButton{
-    font-size: 24px;
-    
   }
   
