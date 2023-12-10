@@ -26,4 +26,11 @@ html {
   p {
     color: white;
   }
-  
+  #qContainer{
+    width: 450px;
+    height: 350px;
+  }
+  #aContainer{
+    width: 500px;
+    height: 200px;
+  }
